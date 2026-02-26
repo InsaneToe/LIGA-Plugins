@@ -1,13 +1,13 @@
 {
   "name": "@liga/plugins",
-  "version": "3.0.0.0",
+  "version": "3.0.0.1",
   "type": "module",
   "main": "src/compiler.ts",
   "description": "AMX Mod X and SourceMod Plugins for LIGA Esports Manager.",
   "author": "Steve Rivera",
   "license": "GPL-3.0-or-later",
   "scripts": {
-    "postinstall": "npx -y tsx cli/download.mts sourcemod"
+    "postinstall": "npx -y tsx cli/download.mts sourcemod && npx -y tsx cli/prepare-server.mts"
   },
   "devDependencies": {
     "@eslint/js": "9.30.1",
