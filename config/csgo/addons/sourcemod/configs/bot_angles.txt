@@ -1,0 +1,1005 @@
+"Angles"
+{
+	"de_mirage"
+	{
+		"Window"
+		{
+			"position"			"-1174.794921 -728.495239 -167.968750"
+			"lookat"			"-1104.031250 -705.356872 -103.881416"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_mirage/Window.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Jungle"
+		{
+			"position"			"-1311.989135 -1155.430419 -167.968750"
+			"lookat"			"0.683715 -2181.968750 -130.341766"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_mirage/Jungle.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Triple"
+		{
+			"position"			"-779.203002 -2098.142578 -179.968750"
+			"lookat"			"-604.567138 -2005.919555 -116.394157"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_mirage/Triple.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Short"
+		{
+			"position"			"-980.627136 295.020629 -166.421157"
+			"lookat"			"-856.373352 62.031265 -107.092010"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_mirage/Short.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Market"
+		{
+			"position"			"-2014.223388 -647.993957 -167.968750"
+			"lookat"			"-1623.801391 645.968688 -6.224243"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_mirage/Market.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Window"
+		{
+			"position"			"-1174.794921 -728.495239 -167.968750"
+			"lookat"			"-1104.031250 -705.356872 -103.881416"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_mirage/Window.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Jungle"
+		{
+			"position"			"-1311.989135 -1155.430419 -167.968750"
+			"lookat"			"0.683715 -2181.968750 -130.341766"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_mirage/Jungle.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Triple"
+		{
+			"position"			"-779.203002 -2098.142578 -179.968750"
+			"lookat"			"-604.567138 -2005.919555 -116.394157"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_mirage/Triple.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Short"
+		{
+			"position"			"-980.627136 295.020629 -166.421157"
+			"lookat"			"-856.373352 62.031265 -107.092010"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_mirage/Short.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Market"
+		{
+			"position"			"-2014.223388 -647.993957 -167.968750"
+			"lookat"			"-1623.801391 645.968688 -6.224243"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_mirage/Market.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+	}
+	"de_dust2"
+	{
+		"Tunnels"
+		{
+			"position"			"-1791.064453 2855.981933 32.891937"
+			"lookat"			"-1859.223632 2427.031250 94.235832"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_dust2/Tunnels.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Mid1"
+		{
+			"position"			"-326.950439 2267.389648 -118.935638"
+			"lookat"			"-483.085571 1138.823608 -89.647277"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_dust2/Mid1.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Mid2"
+		{
+			"position"			"-639.663024 2395.776367 -100.681152"
+			"lookat"			"-71.088806 292.031250 66.535942"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_dust2/Mid2.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Short"
+		{
+			"position"			"414.858520 1632.743041 20.795421"
+			"lookat"			"257.031250 1534.892089 74.708511"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_dust2/Short.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Long"
+		{
+			"position"			"1593.373779 1485.683105 0.031250"
+			"lookat"			"523.031250 626.637207 54.285774"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_dust2/Long.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Tunnels"
+		{
+			"position"			"-1791.064453 2855.981933 32.891937"
+			"lookat"			"-1859.223632 2427.031250 94.235832"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_dust2/Tunnels.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Mid1"
+		{
+			"position"			"-326.950439 2267.389648 -118.935638"
+			"lookat"			"-483.085571 1138.823608 -89.647277"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_dust2/Mid1.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Mid2"
+		{
+			"position"			"-639.663024 2395.776367 -100.681152"
+			"lookat"			"-71.088806 292.031250 66.535942"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_dust2/Mid2.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Short"
+		{
+			"position"			"414.858520 1632.743041 20.795421"
+			"lookat"			"257.031250 1534.892089 74.708511"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_dust2/Short.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Long"
+		{
+			"position"			"1593.373779 1485.683105 0.031250"
+			"lookat"			"523.031250 626.637207 54.285774"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_dust2/Long.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+	}
+	"de_ancient"
+	{
+		"A Main"
+		{
+			"position"			"-1826.059692 985.598937 52.031250"
+			"lookat"			"-2185.431396 -490.968688 125.045867"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_ancient/A Main.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Donut"
+		{
+			"position"			"-1236.208129 -15.446261 106.031250"
+			"lookat"			"-296.031250 -516.471130 74.654174"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_ancient/Donut.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Mid"
+		{
+			"position"			"-483.257995 642.187866 142.812301"
+			"lookat"			"-491.605895 593.232055 202.845031"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_ancient/Mid.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Short"
+		{
+			"position"			"518.815551 855.653137 113.793502"
+			"lookat"			"570.437805 766.031250 174.210937"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_ancient/Short.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Long"
+		{
+			"position"			"1161.828002 770.380554 124.490806"
+			"lookat"			"1166.500610 -963.859313 118.458892"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_ancient/Long.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Cave"
+		{
+			"position"			"475.478881 -288.559448 179.301345"
+			"lookat"			"422.031250 -384.408996 236.120880"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_ancient/Cave.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"A Main"
+		{
+			"position"			"-1826.059692 985.598937 52.031250"
+			"lookat"			"-2185.431396 -490.968688 125.045867"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_ancient/A Main.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Donut"
+		{
+			"position"			"-1236.208129 -15.446261 106.031250"
+			"lookat"			"-296.031250 -516.471130 74.654174"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_ancient/Donut.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Mid"
+		{
+			"position"			"-483.257995 642.187866 142.812301"
+			"lookat"			"-491.605895 593.232055 202.845031"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_ancient/Mid.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Short"
+		{
+			"position"			"518.815551 855.653137 113.793502"
+			"lookat"			"570.437805 766.031250 174.210937"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_ancient/Short.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Long"
+		{
+			"position"			"1161.828002 770.380554 124.490806"
+			"lookat"			"1166.500610 -963.859313 118.458892"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_ancient/Long.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Cave"
+		{
+			"position"			"475.478881 -288.559448 179.301345"
+			"lookat"			"422.031250 -384.408996 236.120880"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_ancient/Cave.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+	}
+	"de_anubis"
+	{
+		"B Main"
+		{
+			"position"			"-733.060485 1193.992065 48.031250"
+			"lookat"			"-844.953430 1078.101684 103.383316"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_anubis/B Main.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"B CT"
+		{
+			"position"			"-1062.243530 1563.681274 -31.968750"
+			"lookat"			"-1406.827148 344.871459 55.941284"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_anubis/B CT.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Connector"
+		{
+			"position"			"-789.999084 195.919433 -79.540557"
+			"lookat"			"-522.883789 165.322753 -30.106704"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_anubis/Connector.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Mid"
+		{
+			"position"			"518.167053 1379.990234 -33.384002"
+			"lookat"			"-225.272155 470.614135 55.899810"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_anubis/Mid.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"A Main"
+		{
+			"position"			"886.857849 2200.827636 -39.968750"
+			"lookat"			"959.781494 2124.057617 12.422388"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_anubis/A Main.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"B Main"
+		{
+			"position"			"-733.060485 1193.992065 48.031250"
+			"lookat"			"-844.953430 1078.101684 103.383316"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_anubis/B Main.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"B CT"
+		{
+			"position"			"-1062.243530 1563.681274 -31.968750"
+			"lookat"			"-1406.827148 344.871459 55.941284"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_anubis/B CT.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Connector"
+		{
+			"position"			"-789.999084 195.919433 -79.540557"
+			"lookat"			"-522.883789 165.322753 -30.106704"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_anubis/Connector.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Mid"
+		{
+			"position"			"518.167053 1379.990234 -33.384002"
+			"lookat"			"-225.272155 470.614135 55.899810"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_anubis/Mid.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"A Main"
+		{
+			"position"			"886.857849 2200.827636 -39.968750"
+			"lookat"			"959.781494 2124.057617 12.422388"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_anubis/A Main.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+	}
+	"de_inferno"
+	{
+		"Long"
+		{
+			"position"			"1609.383789 1228.993164 161.578201"
+			"lookat"			"1221.131958 418.031250 157.259765"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_inferno/Long.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Short"
+		{
+			"position"			"1686.547973 -106.881851 131.031250"
+			"lookat"			"1171.205078 605.968750 163.235427"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_inferno/Short.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Apps"
+		{
+			"position"			"1910.603027 -269.844268 256.031250"
+			"lookat"			"1128.076904 -383.968750 304.805969"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_inferno/Apps.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"B CT"
+		{
+			"position"			"959.698730 2781.996826 128.000671"
+			"lookat"			"569.866394 1857.000000 176.830657"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_inferno/B CT.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Banana"
+		{
+			"position"			"875.999877 2330.266601 146.417205"
+			"lookat"			"82.836547 1559.616699 154.988555"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_inferno/Banana.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Coffins"
+		{
+			"position"			"449.013275 3275.562011 160.031250"
+			"lookat"			"511.968750 3052.898193 215.787658"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_inferno/Coffins.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Long"
+		{
+			"position"			"1609.383789 1228.993164 161.578201"
+			"lookat"			"1221.131958 418.031250 157.259765"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_inferno/Long.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Short"
+		{
+			"position"			"1686.547973 -106.881851 131.031250"
+			"lookat"			"1171.205078 605.968750 163.235427"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_inferno/Short.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Apps"
+		{
+			"position"			"1910.603027 -269.844268 256.031250"
+			"lookat"			"1128.076904 -383.968750 304.805969"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_inferno/Apps.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"B CT"
+		{
+			"position"			"959.698730 2781.996826 128.000671"
+			"lookat"			"569.866394 1857.000000 176.830657"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_inferno/B CT.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Banana"
+		{
+			"position"			"875.999877 2330.266601 146.417205"
+			"lookat"			"82.836547 1559.616699 154.988555"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_inferno/Banana.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Coffins"
+		{
+			"position"			"449.013275 3275.562011 160.031250"
+			"lookat"			"511.968750 3052.898193 215.787658"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_inferno/Coffins.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+	}
+	"de_nuke"
+	{
+		"Garage"
+		{
+			"position"			"1897.424316 -1724.130859 -415.968933"
+			"lookat"			"-183.605224 -2151.605957 -356.256072"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_nuke/Garage.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Outside"
+		{
+			"position"			"1235.502563 -1235.377075 -417.209686"
+			"lookat"			"726.333984 -2468.908691 -364.783538"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_nuke/Outside.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Hell"
+		{
+			"position"			"1214.999755 5.764719 -415.968750"
+			"lookat"			"49.031250 25.516481 -362.990997"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_nuke/Hell.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Ramp"
+		{
+			"position"			"655.949279 822.886291 -479.968750"
+			"lookat"			"-11.968688 -547.723571 -363.449645"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_nuke/Ramp.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"A Site"
+		{
+			"position"			"681.281311 -531.683227 -414.968750"
+			"lookat"			"195.732666 -1151.968750 -362.074249"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_nuke/A Site.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Garage"
+		{
+			"position"			"1897.424316 -1724.130859 -415.968933"
+			"lookat"			"-183.605224 -2151.605957 -356.256072"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_nuke/Garage.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Outside"
+		{
+			"position"			"1235.502563 -1235.377075 -417.209686"
+			"lookat"			"726.333984 -2468.908691 -364.783538"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_nuke/Outside.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Hell"
+		{
+			"position"			"1214.999755 5.764719 -415.968750"
+			"lookat"			"49.031250 25.516481 -362.990997"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_nuke/Hell.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Ramp"
+		{
+			"position"			"655.949279 822.886291 -479.968750"
+			"lookat"			"-11.968688 -547.723571 -363.449645"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_nuke/Ramp.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"A Site"
+		{
+			"position"			"681.281311 -531.683227 -414.968750"
+			"lookat"			"195.732666 -1151.968750 -362.074249"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_nuke/A Site.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+	}
+	"de_train"
+	{
+		"Ivy"
+		{
+			"position"			"1951.968750 328.852630 -221.750015"
+			"lookat"			"1264.031250 686.348388 -166.194915"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_train/Ivy.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Connector"
+		{
+			"position"			"623.995300 -429.326629 -219.168441"
+			"lookat"			"484.031250 -320.693267 -156.215270"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_train/Connector.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Connector B"
+		{
+			"position"			"1077.924682 -750.819274 -223.968750"
+			"lookat"			"961.862670 -820.344360 -152.394363"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_train/Connector B.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"White"
+		{
+			"position"			"229.402282 -963.003051 -351.968750"
+			"lookat"			"208.031250 -961.309814 -287.153442"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_train/White.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Ivy"
+		{
+			"position"			"1951.968750 328.852630 -221.750015"
+			"lookat"			"1264.031250 686.348388 -166.194915"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_train/Ivy.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Connector"
+		{
+			"position"			"623.995300 -429.326629 -219.168441"
+			"lookat"			"484.031250 -320.693267 -156.215270"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_train/Connector.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Connector B"
+		{
+			"position"			"1077.924682 -750.819274 -223.968750"
+			"lookat"			"961.862670 -820.344360 -152.394363"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_train/Connector B.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"White"
+		{
+			"position"			"229.402282 -963.003051 -351.968750"
+			"lookat"			"208.031250 -961.309814 -287.153442"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_train/White.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+	}
+	"de_vertigo"
+	{
+		"B Site"
+		{
+			"position"			"-1927.541137 1079.420654 11752.921875"
+			"lookat"			"-2063.968750 833.339782 11806.406250"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_vertigo/B Site.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Mid"
+		{
+			"position"			"-1950.829101 385.893524 11776.031250"
+			"lookat"			"-1763.031250 37.275787 11831.394531"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_vertigo/Mid.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Elevator"
+		{
+			"position"			"-919.003479 58.755584 11776.031250"
+			"lookat"			"-2062.968750 223.581054 11821.230468"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_vertigo/Elevator.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Short"
+		{
+			"position"			"-1065.742675 -1221.975341 11776.031250"
+			"lookat"			"-788.618164 -200.092224 11488.031250"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_vertigo/Short.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Ramp"
+		{
+			"position"			"-657.069152 -1359.627319 11648.031250"
+			"lookat"			"-705.209838 -1092.031250 11667.197265"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_vertigo/Ramp.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Upper Ramp"
+		{
+			"position"			"-554.108093 -1469.829345 11776.031250"
+			"lookat"			"-902.448791 -83.357055 11488.031250"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_vertigo/Upper Ramp.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"B Site"
+		{
+			"position"			"-1927.541137 1079.420654 11752.921875"
+			"lookat"			"-2063.968750 833.339782 11806.406250"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_vertigo/B Site.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Mid"
+		{
+			"position"			"-1950.829101 385.893524 11776.031250"
+			"lookat"			"-1763.031250 37.275787 11831.394531"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_vertigo/Mid.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Elevator"
+		{
+			"position"			"-919.003479 58.755584 11776.031250"
+			"lookat"			"-2062.968750 223.581054 11821.230468"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_vertigo/Elevator.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Short"
+		{
+			"position"			"-1065.742675 -1221.975341 11776.031250"
+			"lookat"			"-788.618164 -200.092224 11488.031250"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_vertigo/Short.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Ramp"
+		{
+			"position"			"-657.069152 -1359.627319 11648.031250"
+			"lookat"			"-705.209838 -1092.031250 11667.197265"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_vertigo/Ramp.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Upper Ramp"
+		{
+			"position"			"-554.108093 -1469.829345 11776.031250"
+			"lookat"			"-902.448791 -83.357055 11488.031250"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_vertigo/Upper Ramp.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+	}
+	"de_overpass"
+	{
+		"Toilets"
+		{
+			"position"			"-2173.330078 -489.377807 390.615753"
+			"lookat"			"-2761.000244 -1783.929199 518.309448"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_overpass/Toilets.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Long"
+		{
+			"position"			"-3686.940429 -131.191970 511.376159"
+			"lookat"			"-3350.507080 -2438.218505 526.176513"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_overpass/Long.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Connector"
+		{
+			"position"			"-2049.344482 -1266.906738 312.923736"
+			"lookat"			"-1725.487060 -952.710571 96.031250"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_overpass/Connector.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Banana"
+		{
+			"position"			"-2265.599609 -63.922836 401.927276"
+			"lookat"			"-2321.493164 -1373.211791 476.008911"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_overpass/Banana.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"ABC"
+		{
+			"position"			"-1967.531982 -329.628234 128.031250"
+			"lookat"			"-238.758422 -17.847534 52.407363"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_overpass/ABC.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Heaven"
+		{
+			"position"			"-1921.696533 547.441711 256.031250"
+			"lookat"			"-1666.295898 448.017913 272.340484"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_overpass/Heaven.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Toilets"
+		{
+			"position"			"-2173.330078 -489.377807 390.615753"
+			"lookat"			"-2761.000244 -1783.929199 518.309448"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_overpass/Toilets.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Long"
+		{
+			"position"			"-3686.940429 -131.191970 511.376159"
+			"lookat"			"-3350.507080 -2438.218505 526.176513"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_overpass/Long.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Connector"
+		{
+			"position"			"-2049.344482 -1266.906738 312.923736"
+			"lookat"			"-1725.487060 -952.710571 96.031250"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_overpass/Connector.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Banana"
+		{
+			"position"			"-2265.599609 -63.922836 401.927276"
+			"lookat"			"-2321.493164 -1373.211791 476.008911"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_overpass/Banana.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"ABC"
+		{
+			"position"			"-1967.531982 -329.628234 128.031250"
+			"lookat"			"-238.758422 -17.847534 52.407363"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_overpass/ABC.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Heaven"
+		{
+			"position"			"-1921.696533 547.441711 256.031250"
+			"lookat"			"-1666.295898 448.017913 272.340484"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_overpass/Heaven.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+	}
+	"de_cache"
+	{
+		"B Heaven"
+		{
+			"position"			"-483.279235 -674.040893 1796.031250"
+			"lookat"			"519.331359 -726.703247 1639.115112"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_cache/B Heaven.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"B CT"
+		{
+			"position"			"-689.110046 -867.300048 1614.031250"
+			"lookat"			"498.565734 -660.499023 1662.302246"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_cache/B CT.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Mid"
+		{
+			"position"			"-550.994995 28.234737 1665.031250"
+			"lookat"			"1098.968627 259.712921 1647.208984"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_cache/Mid.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Mid2"
+		{
+			"position"			"-421.430847 278.990570 1665.031250"
+			"lookat"			"-392.031250 279.408416 1725.201416"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_cache/Mid2.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"A Car"
+		{
+			"position"			"-917.691345 1036.353637 1683.611083"
+			"lookat"			"828.968811 1836.702026 1743.490600"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_cache/A Car.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Quad"
+		{
+			"position"			"-298.312255 2218.772216 1687.031494"
+			"lookat"			"-187.232543 2136.031250 1750.766967"
+			"nadedefindex"		"9"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_cache/Quad.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"B Heaven"
+		{
+			"position"			"-483.279235 -674.040893 1796.031250"
+			"lookat"			"519.331359 -726.703247 1639.115112"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_cache/B Heaven.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"B CT"
+		{
+			"position"			"-689.110046 -867.300048 1614.031250"
+			"lookat"			"498.565734 -660.499023 1662.302246"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_cache/B CT.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Mid"
+		{
+			"position"			"-550.994995 28.234737 1665.031250"
+			"lookat"			"1098.968627 259.712921 1647.208984"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_cache/Mid.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Mid2"
+		{
+			"position"			"-421.430847 278.990570 1665.031250"
+			"lookat"			"-392.031250 279.408416 1725.201416"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_cache/Mid2.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"A Car"
+		{
+			"position"			"-917.691345 1036.353637 1683.611083"
+			"lookat"			"828.968811 1836.702026 1743.490600"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_cache/A Car.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+		"Quad"
+		{
+			"position"			"-298.312255 2218.772216 1687.031494"
+			"lookat"			"-187.232543 2136.031250 1750.766967"
+			"nadedefindex"		"40"
+			"replay"			"addons/sourcemod/data/botmimic/angles/de_cache/Quad.rec"
+			"timestamp"			"0.0"
+			"team"				"CT"
+		}
+	}
+}

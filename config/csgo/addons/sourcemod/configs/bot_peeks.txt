@@ -1,0 +1,645 @@
+"Peeks"
+{
+    "de_mirage"
+    {
+        "CT B Apps"
+        {
+            "position"          "-1598.000000 -1732.000000 -268.432342"
+            "lookat"            "-1640.726928 -488.031250 -81.542022"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_mirage/CT B Apps.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT Window"
+        {
+            "position"          "-1598.000000 -1732.000000 -268.432342"
+            "lookat"            "-1623.534301 -488.031250 -88.439582"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_mirage/CT Window.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT Ramp"
+        {
+            "position"          "-1632.000000 -2072.000000 -264.034912"
+            "lookat"            "-883.031311 -2591.285888 -95.994544"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_mirage/CT Ramp.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "T Window"
+        {
+            "position"          "1136.000000 32.000000 -167.968750"
+            "lookat"            "1015.177612 695.968811 -81.512069"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_mirage/T Window.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T Ramp"
+        {
+            "position"          "1216.000000 -307.000000 -165.623840"
+            "lookat"            "1076.008300 -1199.968750 -205.970520"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_mirage/T Ramp.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+    }
+    "de_nuke"
+    {
+        "CT Ramp"
+        {
+            "position"          "2280.000000 -336.000000 -352.986938"
+            "lookat"            "1648.031250 -426.889739 -330.876892"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_nuke/CT Ramp.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT Outside"
+        {
+            "position"          "2280.000000 -496.000000 -353.316864"
+            "lookat"            "1648.031250 -700.684509 -319.361480"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_nuke/CT Outside.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "T Ramp"
+        {
+            "position"          "-1808.000000 -1089.000000 -416.728698"
+            "lookat"            "-496.031250 -1026.022094 -331.734313"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_nuke/T Ramp.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T Outside 1"
+        {
+            "position"          "-1808.000000 -1089.000000 -416.728698"
+            "lookat"            "-514.888549 -1177.772827 -363.510253"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_nuke/T Outside 1.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T Outside 2"
+        {
+            "position"          "-1808.000000 -1089.000000 -416.728698"
+            "lookat"            "-519.219482 -1168.323608 -356.303497"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_nuke/T Outside 2.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+    }
+    "de_cache"
+    {
+        "CT Mid"
+        {
+            "position"          "-1493.173339 550.308532 1614.476928"
+            "lookat"            "-1126.031250 18.037414 1668.510253"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_cache/CT Mid.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT A"
+        {
+            "position"          "-1487.790893 492.884277 1614.476928"
+            "lookat"            "-450.031250 -428.929626 1662.163085"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_cache/CT A.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT B"
+        {
+            "position"          "-1464.471435 530.943237 1614.476928"
+            "lookat"            "-1112.031250 -25.839355 1674.159301"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_cache/CT B.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "T Mid"
+        {
+            "position"          "2854.707519 50.904312 1613.031250"
+            "lookat"            "1753.031250 81.080894 1632.625488"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_cache/T Mid.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T Mid"
+        {
+            "position"          "2854.707519 50.904312 1613.031250"
+            "lookat"            "1753.031250 81.080894 1632.625488"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_cache/T Mid.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T A"
+        {
+            "position"          "2848.628906 68.126251 1613.031250"
+            "lookat"            "1753.031250 81.080894 1632.625488"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_cache/T A.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T B"
+        {
+            "position"          "2901.823486 13.608420 1613.031250"
+            "lookat"            "1503.655029 -1113.776245 1667.266845"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_cache/T B.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+    }
+    "de_overpass"
+    {
+        "CT B"
+        {
+            "position"          "-2091.000000 867.000000 480.031250"
+            "lookat"            "-1754.147827 1066.709350 525.038940"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_overpass/CT B.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT A"
+        {
+            "position"          "-2371.000000 726.000000 475.031250"
+            "lookat"            "-2458.499267 -133.456604 493.611145"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_overpass/CT A.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT Con"
+        {
+            "position"          "-2371.000000 726.000000 475.031250"
+            "lookat"            "-2444.455566 -147.500244 489.590087"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_overpass/CT Con.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "T B"
+        {
+            "position"          "-1241.848510 -3080.138427 262.160736"
+            "lookat"            "-370.825988 -1840.031250 183.013275"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_overpass/T B.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T Con"
+        {
+            "position"          "-1241.848510 -3080.138427 262.160736"
+            "lookat"            "-738.419799 -2064.031250 305.945495"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_overpass/T Con.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T A"
+        {
+            "position"          "-1241.848510 -3080.138427 262.160736"
+            "lookat"            "-742.066406 -2064.031250 295.705017"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_overpass/T A.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+    }
+    "de_inferno"
+    {
+        "CT Mid"
+        {
+            "position"          "2353.000000 1977.000000 128.031250"
+            "lookat"            "1736.172607 1602.031250 221.007537"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_inferno/CT Mid.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT Apps"
+        {
+            "position"          "2353.000000 1977.000000 128.031250"
+            "lookat"            "1727.476562 1602.031250 214.005264"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_inferno/CT Apps.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT B"
+        {
+            "position"          "2406.812744 2316.302490 128.031250"
+            "lookat"            "1541.196899 2979.085693 169.900405"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_inferno/CT B.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "T A"
+        {
+            "position"          "-1525.793212 304.222473 -63.645004"
+            "lookat"            "-1202.031250 172.941497 -7.214654"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_inferno/T A.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T A2"
+        {
+            "position"          "-1548.822509 382.887634 -67.655929"
+            "lookat"            "-1202.031250 157.471176 -8.591224"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_inferno/T A2.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T B"
+        {
+            "position"          "-1494.360595 410.619964 -64.871360"
+            "lookat"            "-1269.081054 132.031250 -10.503779"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_inferno/T B.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+    }
+    "de_vertigo"
+    {
+        "CT Ramp Short"
+        {
+            "position"          "-1062.781494 679.915344 11776.031250"
+            "lookat"            "-1095.526123 76.031250 11818.565429"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_vertigo/CT Ramp Short.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT Ramp"
+        {
+            "position"          "-1062.781494 679.915344 11776.031250"
+            "lookat"            "-923.114624 -480.968688 11828.054687"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_vertigo/CT Ramp.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT Mid"
+        {
+            "position"          "-1092.947143 552.035156 11776.031250"
+            "lookat"            "-1274.075683 73.663940 11842.840820"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_vertigo/CT Mid.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT B"
+        {
+            "position"          "-1160.056762 883.989807 11776.031250"
+            "lookat"            "-1583.968750 898.432678 11838.274414"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_vertigo/CT B.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "T Ramp"
+        {
+            "position"          "-1510.171386 -1274.978637 11488.031250"
+            "lookat"            "-2368.968750 -467.284667 11551.878906"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_vertigo/T Ramp.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T Mid"
+        {
+            "position"          "-1486.209594 -1398.246459 11488.031250"
+            "lookat"            "-2002.880859 -1226.030395 11582.475585"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_vertigo/T Mid.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T B"
+        {
+            "position"          "-1515.043701 -1294.995727 11488.031250"
+            "lookat"            "-2368.968750 -518.194458 11553.381835"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_vertigo/T B.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+    }
+    "de_train"
+    {
+        "CT Ivy"
+        {
+            "position"          "1653.255615 -1194.265136 -320.815765"
+            "lookat"            "1973.765502 -660.657775 -226.293930"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_train/CT Ivy.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT Main"
+        {
+            "position"          "1653.255615 -1194.265136 -320.815765"
+            "lookat"            "1537.290771 -808.031250 -258.347015"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_train/CT Main.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT Main2"
+        {
+            "position"          "1653.255615 -1194.265136 -320.815765"
+            "lookat"            "1976.900390 -652.220031 -222.075088"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_train/CT Main2.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT B Ramp"
+        {
+            "position"          "1653.255615 -1194.265136 -320.815765"
+            "lookat"            "1537.295410 -808.031250 -254.783050"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_train/CT B Ramp.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "T Ivy"
+        {
+            "position"          "-1636.229736 1342.617187 -191.968750"
+            "lookat"            "1551.968750 1624.459960 -153.683715"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_train/T Ivy.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T Ivy2"
+        {
+            "position"          "-1636.229736 1342.617187 -191.968750"
+            "lookat"            "1551.968994 1615.772094 -159.037780"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_train/T Ivy2.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T Main"
+        {
+            "position"          "-1636.229736 1342.617187 -191.968750"
+            "lookat"            "-539.031127 1247.465087 -161.438888"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_train/T Main.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T Main2"
+        {
+            "position"          "-1636.229736 1342.617187 -191.968750"
+            "lookat"            "-539.031250 1260.259887 -156.482879"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_train/T Main2.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T Main3"
+        {
+            "position"          "-1636.229736 1342.617187 -191.968750"
+            "lookat"            "-539.031250 1249.611938 -176.513504"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_train/T Main3.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T B Ramp"
+        {
+            "position"          "-1636.229736 1342.617187 -191.968750"
+            "lookat"            "-539.031372 1379.356811 -207.494140"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_train/T B Ramp.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+    }
+    "de_dust2"
+    {
+        "CT Long"
+        {
+            "position"          "409.749267 2306.462890 -118.968750"
+            "lookat"            "1803.968750 1870.133178 123.411239"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_dust2/CT Long.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT Short"
+        {
+            "position"          "409.749267 2306.462890 -118.968750"
+            "lookat"            "1803.968750 2027.652709 126.743743"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_dust2/CT Short.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT Mid"
+        {
+            "position"          "208.768295 2329.103271 -118.968750"
+            "lookat"            "-621.968750 1802.214111 -77.709480"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourlcemod/data/botmimic/peeks/de_dust2/CT Mid.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT B"
+        {
+            "position"          "208.768295 2329.103271 -118.968750"
+            "lookat"            "-621.968688 1808.634887 -67.201988"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_dust2/CT B.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "T Long"
+        {
+            "position"          "-332.000000 -754.000000 78.833892"
+            "lookat"            "628.063171 -80.495056 27.664344"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_dust2/T Long.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T Mid"
+        {
+            "position"          "-494.953735 -755.322814 111.639221"
+            "lookat"            "-482.505004 -386.031250 205.371017"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_dust2/T Mid.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T B"
+        {
+            "position"          "-1181.000000 -754.000000 120.181251"
+            "lookat"            "-1817.661865 695.968750 219.311401"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_dust2/T B.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+    }
+    "de_anubis"
+    {
+        "CT A"
+        {
+            "position"          "-307.190979 2072.221191 34.031250"
+            "lookat"            "-34.329803 1474.031250 92.188163"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_anubis/CT A.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT Mid"
+        {
+            "position"          "-307.190979 2072.221191 34.031250"
+            "lookat"            "-42.750091 1474.031250 90.942344"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_anubis/CT Mid.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT B"
+        {
+            "position"          "-612.240112 2082.251220 16.031250"
+            "lookat"            "-907.620361 1637.206420 67.601531"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_anubis/CT B.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT Con"
+        {
+            "position"          "-307.190979 2072.221191 34.031250"
+            "lookat"            "-146.031250 1437.311279 108.611137"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_anubis/CT Con.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "T B"
+        {
+            "position"          "-416.000000 -1608.000000 2.031250"
+            "lookat"            "-1180.726318 -902.760742 135.199707"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_anubis/T B.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T Mid"
+        {
+            "position"          "-416.000000 -1608.000000 2.031250"
+            "lookat"            "-1185.468994 -908.304321 128.081558"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_anubis/T Mid.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T Con"
+        {
+            "position"          "0.847477 -1551.306518 -11.862237"
+            "lookat"            "699.968750 -1058.528076 54.866363"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_anubis/T Con.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T A"
+        {
+            "position"          "0.847477 -1551.306518 -11.862236"
+            "lookat"            "414.787658 -1252.942993 60.906040"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_anubis/T A.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+    }
+    "de_ancient"
+    {
+        "CT B"
+        {
+            "position"          "-245.464843 1571.213989 22.183681"
+            "lookat"            "-134.264221 618.031311 154.393920"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_ancient/CT B.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT Cave"
+        {
+            "position"          "-245.464843 1571.213989 22.183681"
+            "lookat"            "-139.745941 618.031188 152.725753"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_ancient/CT Cave.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT Mid"
+        {
+            "position"          "-274.850189 1524.970214 20.919940"
+            "lookat"            "-310.473999 618.031250 157.765914"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_ancient/CT Mid.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "CT A"
+        {
+            "position"          "-364.814208 1425.096679 23.910938"
+            "lookat"            "-663.968750 1176.405395 108.288597"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_ancient/CT A.rec"
+            "timestamp"         "0.0"
+            "team"              "CT"
+        }
+        "T A"
+        {
+            "position"          "-633.600585 -1906.493774 -173.575485"
+            "lookat"            "-2159.968750 -858.777587 217.172439"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_ancient/T A.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T Mid"
+        {
+            "position"          "-633.600585 -1906.493774 -173.575485"
+            "lookat"            "-1247.968750 -1315.698242 86.086975"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_ancient/T Mid.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+        "T B"
+        {
+            "position"          "-323.606353 -1961.356567 -169.304367"
+            "lookat"            "-36.069122 -1775.086425 -114.839508"
+            "nadedefindex"      "9"
+            "replay"            "addons/sourcemod/data/botmimic/peeks/de_ancient/T B.rec"
+            "timestamp"         "0.0"
+            "team"              "T"
+        }
+    }
+}
