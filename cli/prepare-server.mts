@@ -23,18 +23,20 @@ async function copyRequired() {
   const destinationRoot = path.join(root, "config/csgo/addons");
 
   const requiredPaths = [
-    "metamod.vdf",
-    "metamod",
-    "sourcemod/bin",
-    "sourcemod/configs",
-    "sourcemod/extensions",
-    "sourcemod/gamedata",
-    "sourcemod/translations",
+    { path: "metamod.vdf", overwrite: true },
+    { path: "metamod", overwrite: true },
+    { path: "sourcemod/bin", overwrite: true },
+    // Keep repository-maintained configs such as `configs/core.cfg` intact.
+    { path: "sourcemod/configs", overwrite: false },
+    { path: "sourcemod/extensions", overwrite: true },
+    { path: "sourcemod/gamedata", overwrite: true },
+    { path: "sourcemod/translations", overwrite: true },
   ];
 
   const missing = [] as string[];
 
-  for (const relative of requiredPaths) {
+  for (const required of requiredPaths) {
+    const relative = required.path;
     const from = path.join(sourceRoot, relative);
     const to = path.join(destinationRoot, relative);
 
@@ -43,7 +45,11 @@ async function copyRequired() {
       continue;
     }
 
-    await fs.promises.cp(from, to, { recursive: true, force: true });
+    await fs.promises.cp(from, to, {
+      recursive: true,
+      force: required.overwrite,
+      errorOnExist: false,
+    });
     console.info("Synced %s", path.relative(root, to));
   }
 
