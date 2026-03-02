@@ -68,6 +68,21 @@ char g_szReplay[128][128];
 float g_fNadeTimestamp[128];
 int g_iNadeTeam[128];
 
+float g_fPistolNadePos[128][3], g_fPistolNadeLook[128][3];
+int g_iPistolNadeDefIndex[128], g_iPistolNadeTeam[128], g_iPistolNades;
+char g_szPistolReplay[128][128];
+float g_fPistolNadeTimestamp[128];
+
+float g_fNormalNadePos[128][3], g_fNormalNadeLook[128][3];
+int g_iNormalNadeDefIndex[128], g_iNormalNadeTeam[128], g_iNormalNades;
+char g_szNormalReplay[128][128];
+float g_fNormalNadeTimestamp[128];
+
+float g_fPostPlantNadePos[128][3], g_fPostPlantNadeLook[128][3];
+int g_iPostPlantNadeDefIndex[128], g_iPostPlantNadeTeam[128], g_iPostPlantNades;
+char g_szPostPlantReplay[128][128];
+float g_fPostPlantNadeTimestamp[128];
+
 //BOT Angle Variables
 float g_fAnglePos[128][3], g_fAngleLook[128][3];
 int g_iAngleDefIndex[128];
@@ -236,6 +251,10 @@ public void OnMapStart()
 
 	GetCurrentMap(g_szMap, sizeof(g_szMap));
 	GetMapDisplayName(g_szMap, g_szMap, sizeof(g_szMap));
+
+	ParseMapNades(g_szMap, true);
+	ParseMapNades(g_szMap, false);
+	ParsePostPlantNades(g_szMap);
 
 	g_bIsBombScenario = IsValidEntity(FindEntityByClassname(-1, "func_bomb_target"));
 	g_bIsHostageScenario = IsValidEntity(FindEntityByClassname(-1, "func_hostage_rescue"));
@@ -690,8 +709,7 @@ public void OnRoundStart(Event eEvent, char[] szName, bool bDontBroadcast)
 {
 	g_iMaxNades = 0;
 	g_iPostPlantNadesStartIndex = 0;
-	ParseMapNades(g_szMap);
-	ParsePostPlantNades(g_szMap);
+	BuildActiveNadesForRound();
 	ParseMapAngles(g_szMap);
     ParseMapPeeks(g_szMap);
 
@@ -2116,7 +2134,7 @@ public Action OnPlayerRunCmd(int client, int &iButtons, int &iImpulse, float fVe
 			    }
 			}
 			
-			if(g_bThrowGrenade[client] && eItems_GetWeaponSlotByDefIndex(iDefIndex) == CS_SLOT_GRENADE)
+			if(!IsWarmupPeriod() && g_bThrowGrenade[client] && eItems_GetWeaponSlotByDefIndex(iDefIndex) == CS_SLOT_GRENADE)
 			{
 				BotThrowGrenade(client, g_fNadeTarget[client]);
 				g_fThrowNadeTimestamp[client] = GetGameTime();
@@ -2621,11 +2639,11 @@ public void eItems_OnItemsSynced()
 	ServerCommand("changelevel %s", g_szMap);
 }
 
-void ParseMapNades(const char[] szMap)
+void ParseMapNades(const char[] szMap, bool bPistolNades)
 {
     char szPath[PLATFORM_MAX_PATH];
     
-    if (g_iCurrentRound == 0 || g_iCurrentRound == 12)
+    if (bPistolNades)
     {
         BuildPath(Path_SM, szPath, sizeof(szPath), "configs/bot_nades_pistol.txt");
     }
@@ -2668,22 +2686,48 @@ void ParseMapNades(const char[] szMap)
     {
         char szTeam[4];
         
-        kv.GetVector("position", g_fNadePos[i]);
-        kv.GetVector("lookat", g_fNadeLook[i]);
-        g_iNadeDefIndex[i] = kv.GetNum("nadedefindex");
-        kv.GetString("replay", g_szReplay[i], 128);
-        g_fNadeTimestamp[i] = kv.GetFloat("timestamp");
+		if (bPistolNades)
+        {
+            kv.GetVector("position", g_fPistolNadePos[i]);
+            kv.GetVector("lookat", g_fPistolNadeLook[i]);
+            g_iPistolNadeDefIndex[i] = kv.GetNum("nadedefindex");
+            kv.GetString("replay", g_szPistolReplay[i], 128);
+            g_fPistolNadeTimestamp[i] = kv.GetFloat("timestamp");
+        }
+        else
+        {
+            kv.GetVector("position", g_fNormalNadePos[i]);
+            kv.GetVector("lookat", g_fNormalNadeLook[i]);
+            g_iNormalNadeDefIndex[i] = kv.GetNum("nadedefindex");
+            kv.GetString("replay", g_szNormalReplay[i], 128);
+            g_fNormalNadeTimestamp[i] = kv.GetFloat("timestamp");
+        }
+
         kv.GetString("team", szTeam, sizeof(szTeam));
         if(strcmp(szTeam, "CT", false) == 0)
-            g_iNadeTeam[i] = CS_TEAM_CT;
+            {
+            if (bPistolNades)
+                g_iPistolNadeTeam[i] = CS_TEAM_CT;
+            else
+                g_iNormalNadeTeam[i] = CS_TEAM_CT;
+        }
         else if(strcmp(szTeam, "T", false) == 0)
-            g_iNadeTeam[i] = CS_TEAM_T;
+            {
+            if (bPistolNades)
+                g_iPistolNadeTeam[i] = CS_TEAM_T;
+            else
+                g_iNormalNadeTeam[i] = CS_TEAM_T;
+        }
         
         i++;
     } while (kv.GotoNextKey());
     
-    delete kv;    
-    g_iMaxNades = i;
+    delete kv;
+
+    if (bPistolNades)
+        g_iPistolNades = i;
+    else
+        g_iNormalNades = i;
 }
 
 void ParsePostPlantNades(const char[] szMap)
@@ -2715,28 +2759,78 @@ void ParsePostPlantNades(const char[] szMap)
         return;
     }
     
-    // Store the starting index of post-plant grenades
-    g_iPostPlantNadesStartIndex = g_iMaxNades;
-    
-    int i = g_iPostPlantNadesStartIndex;
+    int i = 0;
     do
     {
         char szTeam[4];
-        kv.GetVector("position", g_fNadePos[i]);
-        kv.GetVector("lookat", g_fNadeLook[i]);
-        g_iNadeDefIndex[i] = kv.GetNum("nadedefindex");
-        kv.GetString("replay", g_szReplay[i], 128);
-        g_fNadeTimestamp[i] = kv.GetFloat("timestamp");
+        kv.GetVector("position", g_fPostPlantNadePos[i]);
+        kv.GetVector("lookat", g_fPostPlantNadeLook[i]);
+        g_iPostPlantNadeDefIndex[i] = kv.GetNum("nadedefindex");
+        kv.GetString("replay", g_szPostPlantReplay[i], 128);
+        g_fPostPlantNadeTimestamp[i] = kv.GetFloat("timestamp");
         kv.GetString("team", szTeam, sizeof(szTeam));
         
         if (strcmp(szTeam, "CT", false) == 0)
-            g_iNadeTeam[i] = CS_TEAM_CT;
+            g_iPostPlantNadeTeam[i] = CS_TEAM_CT;
         else if (strcmp(szTeam, "T", false) == 0)
-            g_iNadeTeam[i] = CS_TEAM_T;
+            g_iPostPlantNadeTeam[i] = CS_TEAM_T;
         i++;
     } while (kv.GotoNextKey());
-    g_iMaxNades = i;
+    
+    g_iPostPlantNades = i;
     delete kv;
+}
+
+void BuildActiveNadesForRound()
+{
+    bool bPistolRound = (g_iCurrentRound == 0 || g_iCurrentRound == 12);
+    int iMainNades = bPistolRound ? g_iPistolNades : g_iNormalNades;
+
+    for (int i = 0; i < iMainNades; i++)
+    {
+        if (bPistolRound)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                g_fNadePos[i][j] = g_fPistolNadePos[i][j];
+                g_fNadeLook[i][j] = g_fPistolNadeLook[i][j];
+            }
+            g_iNadeDefIndex[i] = g_iPistolNadeDefIndex[i];
+            strcopy(g_szReplay[i], sizeof(g_szReplay[]), g_szPistolReplay[i]);
+            g_fNadeTimestamp[i] = g_fPistolNadeTimestamp[i];
+            g_iNadeTeam[i] = g_iPistolNadeTeam[i];
+        }
+        else
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                g_fNadePos[i][j] = g_fNormalNadePos[i][j];
+                g_fNadeLook[i][j] = g_fNormalNadeLook[i][j];
+            }
+            g_iNadeDefIndex[i] = g_iNormalNadeDefIndex[i];
+            strcopy(g_szReplay[i], sizeof(g_szReplay[]), g_szNormalReplay[i]);
+            g_fNadeTimestamp[i] = g_fNormalNadeTimestamp[i];
+            g_iNadeTeam[i] = g_iNormalNadeTeam[i];
+        }
+    }
+
+    g_iPostPlantNadesStartIndex = iMainNades;
+
+    for (int i = 0; i < g_iPostPlantNades; i++)
+    {
+        int iTarget = g_iPostPlantNadesStartIndex + i;
+        for (int j = 0; j < 3; j++)
+        {
+            g_fNadePos[iTarget][j] = g_fPostPlantNadePos[i][j];
+            g_fNadeLook[iTarget][j] = g_fPostPlantNadeLook[i][j];
+        }
+        g_iNadeDefIndex[iTarget] = g_iPostPlantNadeDefIndex[i];
+        strcopy(g_szReplay[iTarget], sizeof(g_szReplay[]), g_szPostPlantReplay[i]);
+        g_fNadeTimestamp[iTarget] = g_fPostPlantNadeTimestamp[i];
+        g_iNadeTeam[iTarget] = g_iPostPlantNadeTeam[i];
+    }
+
+    g_iMaxNades = g_iPostPlantNadesStartIndex + g_iPostPlantNades;
 }
 
 void ParseMapAngles(const char[] szMap)
@@ -3282,8 +3376,14 @@ public void AddMoney(int client, int iAmount, bool bTrackChange, bool bItemBough
 	SDKCall(g_hAddMoney, client, iAmount, bTrackChange, bItemBought, szItemName);
 }
 
+bool IsWarmupPeriod()
+{
+    return (GameRules_GetProp("m_bWarmupPeriod") != 0);
+}
+
 public int GetNearestGrenade(int client)
 {
+    if (IsWarmupPeriod()) return -1;
     if (g_bBombPlanted) return -1;
     if (AreAllEnemiesDead(client)) return -1;
     if (g_bBombExploded) return -1;
@@ -3345,6 +3445,7 @@ public int GetNearestGrenade(int client)
 
 public int GetNearestPostPlantGrenade(int client)
 {
+    if (IsWarmupPeriod()) return -1;
     if (!g_bBombPlanted) return -1;
     if (AreAllEnemiesDead(client)) return -1;
     if (!IsBotNearPlantedBomb(client)) return -1; // Check if bot is near bomb
