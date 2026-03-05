@@ -1,4 +1,5 @@
 #include <sourcemod>
+#include <sdktools>
 #include <cstrike>
 
 public Plugin myinfo =
@@ -6,7 +7,7 @@ public Plugin myinfo =
     name        = "Block AWP Fire (ConVar & Team-Based)",
     author      = "Rxpev",
     description = "Blocks AWP for humans while they have alive teammates, unless isAWP = 1.",
-    version     = "1.6",
+    version     = "1.7",
     url         = "http://steamcommunity.com/id/rxpev"
 };
 
@@ -63,8 +64,8 @@ public Action OnPlayerRunCmd(int client, int &buttons, int &impulse, float vel[3
 
     float now = GetGameTime();
 
-    // ConVar check: isAWP = 1 -> ALLOW normal usage
-    if (GetConVarInt(g_hIsAwp) == 1)
+    // Allow normal AWP usage during warmup or when isAWP = 1.
+    if (GameRules_GetProp("m_bWarmupPeriod") == 1 || GetConVarInt(g_hIsAwp) == 1)
     {
         if (g_bAwpRestricted[client])
         {
